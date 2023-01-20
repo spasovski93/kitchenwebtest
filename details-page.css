@@ -1,0 +1,91 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background: linear-gradient(158deg, rgba(38, 38, 38, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+
+#container-recipe {
+    display: flex;
+
+    /* height: 100vh; */
+    /* background-color: green; */
+    justify-content: center;
+    text-align: center;
+}
+
+.top-recipe {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.left-recipe {
+    align-self: flex-start;
+    text-align: center;
+    width: 50%;
+    /* background-color: red; */
+    /* height: 100vh; */
+}
+
+.content-recipe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.content-recipe h1 {
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    color: brown !important;
+}
+
+.content-recipe p {
+    text-align: left;
+    font-size: 25px;
+    color: white;
+    /* padding-right: 10px; */
+}
+
+
+.right-recipe {
+    align-self: flex-end;
+    width: 50%;
+
+
+}
+
+.right-recipe img {
+    border-radius: 4px;
+    /* margin-top: 90px; */
+    width: 600px;
+    border-radius: 4px;
+    height: 620px;
+    vertical-align: auto;
+    margin: 0px;
+
+}
+
+#mymodal {
+    z-index: 100;
+    position: relative;
+    left: 30%;
+    top: 23vh;
+    width: 40%;
+    height: 50vh;
+    color: brown;
+    text-align: center;
+    background: linear-gradient(158deg, rgba(38, 38, 38, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    border-radius: 4px;
+    border-width: 1px;
+    padding-top: 15px;
+
+
+}

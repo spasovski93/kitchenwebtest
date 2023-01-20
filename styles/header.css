@@ -1,0 +1,44 @@
+.container h1 {
+    display: block;
+    float: left;
+    /* margin-left: 100px; */
+    font-size: 36px;
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+
+
+
+}
+
+span {
+    color: white;
+}
+
+.container-fluid {
+    width: 30%;
+    height: 70px;
+    background-color: brown;
+
+}
+
+.user-icon {
+    display: block;
+    float: right;
+    color: white;
+    font-size: 26px;
+    margin-top: 13px;
+    text-decoration: none;
+
+}
+
+.fa-user {
+    padding-left: 10px;
+
+}
+
+.user-icon:hover {
+    color: black;
+    cursor: pointer;
+}
